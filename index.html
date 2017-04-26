@@ -1,0 +1,78 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Form</title>
+	<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.2.0/jquery.min.js"></script>
+	<script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js"></script>
+	<script src="custom.js"></script>
+	<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css">
+    <link rel="stylesheet" type="text/css" href="flatly.css">
+	<link rel="stylesheet" type="text/css" href="styles.css">
+</head>
+<body>
+
+<div class="alert alert-success">
+  <strong>Well done!</strong>
+</div>
+
+<div class="wrapper">
+<form action="">
+	<fieldset>
+		<legend>Registration Form</legend>
+
+		<div class="form-group">
+			<label for="email" class="control-label">Email</label>
+			<div>
+				<input type="email" class="form-control" id="email" name="email">
+			</div>
+		</div>
+
+		<div class="form-group">
+			<label for="emailConfirm" class="control-label">Email Confirmation</label>
+			<div>
+				<input type="email" class="form-control" id="emailConfirm" name="emailConfirm">
+			</div>
+		</div>
+
+		<div class="form-group">
+			<label for="pass" class="control-label">Password</label>
+			<div>
+				<input type="password" class="form-control" id="pass" name="pass">
+			</div>
+		</div>
+
+		<div class="form-group">
+			<label for="passConfirm" class="control-label">Password Confirmation</label>
+			<div>
+				<input type="password" class="form-control" name="passConfirm" id="passConfirm">
+			</div>
+		</div>
+
+		<div class="form-group">
+			<label for="country" class="control-label">Country (optional)</label>
+			<div>
+				<input type="text" class="form-control" id="country" name="country">
+			</div>
+		</div>
+
+		<div class="form-group">
+			<label for="zip" class="control-label">Zip Code (optional)</label>
+			<div>
+				<input type="text" class="form-control" id="zip" name="zip">
+			</div>
+		</div>
+
+		<div class="form-group">
+			<div>
+				<button type="submit" class="btn btn-primary">Submit</button>
+			</div>
+		</div>
+
+	</fieldset>
+</form>
+</div>
+
+</body>
+</html>

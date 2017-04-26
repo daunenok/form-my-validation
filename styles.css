@@ -1,0 +1,22 @@
+.wrapper {
+	width: 90%;
+	max-width: 500px;
+	margin: 30px auto;
+	background-color: #ECF0F1;
+	padding: 20px;
+	border-radius: 5px;
+}
+.alert {
+	width: 90%;
+	max-width: 500px;
+	margin: 30px auto;
+	display: none;
+}
+.error {
+	color: #E74C3C;
+	border-color: #E74C3C;
+}
+.valid {
+	color: #18BC9C;
+	border-color: #18BC9C;
+}
